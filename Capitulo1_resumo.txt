@@ -1,0 +1,102 @@
+Título do módulo: As redes de hoje
+
+Objetivo do módulo: Explicar os avanços em tecnologias de rede modernas.
+Legenda da tabela
+Título do Tópico 	Objetivo do Tópico
+Redes afetam nossas vidas 	Explicar como as redes afetam nossas vidas diárias.
+Componentes de rede 	Explicar como os dispositivos de host e de rede são usados.
+Representações e topologias de rede 	Explicar representações de rede e como elas são usadas na rede topologias.
+Tipos comuns de redes 	Comparar as características de tipos comuns de redes.
+Conexões com a Internet 	Explicar como LANs e WANs se interconectam com a Internet.
+Redes confiáveis 	Descrever os quatro requisitos básicos de uma rede confiável.
+Tendências das redes 	Explicar como tendências como BYOD, colaboração on-line, vídeo e nuvem a computação está mudando a forma como interagimos.
+Segurança da rede 	Identificar algumas ameaças e soluções básicas de segurança para todas as redes.
+O profissional de TI 	Explicar oportunidades de emprego no campo de rede.
+
+
+Componentes de Redes -> funções do host 
+    Todos computadores conectados a uma rede e participam da comunicação em rede, são classificados como hosts.
+    hosts podem ser chamados de dispositivos finais, alguns também são chamados de clientes. O termo host, refere-se
+    especificamente a dispositivos na rede que recebem um número para fins de comunicação e identificação, chamado de 
+    endereço IP(InternetProtocol). O endereço IP identifica o host e a rede à qual o host está conectado.
+
+    Servidores, computadores com software que lhes permitem fornecer informações para outros dispositivos finais na rede.
+    cada serviço exige software de  servidor separado, exemplo, computador exige software de servidor separado
+    exemplo de um software cliente é um navegador, googlechrome ou firefox, computadores também podem executar vários tipos 
+    de software cliente. usuario pode verificar o email e vizualizar uma página web enquanto troca mensagens instantaneas e
+    ouve um fluxo de audio.
+
+
+Ponto a Ponto 
+    geralmente cliente e servidor são executados em computadores separados, porém, pode ser usado para
+    ambas funções ao mesmo tempo.  Esse tipo de rede é chamado de ponto a ponto
+    vantagens do peer-to-peer 
+        facil de configurar
+        menos complexo
+        menor custo porque dispositivos de rede e os servidores dedicados podem não ser necessários
+        pode ser usada para tarefas simples como compartilhar arquivos e impressoras
+    desvantagens do peer-to-peer
+        nenhuma administração centralizada
+        não é tão segura
+        não é escalável
+        todos dispositivos podem atuar como cliente e servidores, podendo deixar desempenho lento
+
+Dispositivos finais
+    Um dispositivo final é a origem ou o destino de uma mensagem transmitida pela rede.
+
+Dispositivos Intermediarios
+    conectam os dispositivos finais à rede. podem conectar várias redes individuais para formar uma internetwork
+    oferecem conectividade e asseguram que dados fluam pela rede
+    dispositivos Intermediarios usam o endereço do dispositivo final de destino, em conjunto ocom as informações
+    sobre interneconexões da rede, para determinar caminho que as mensagens devem percorrer na rede. 
+    exemplo: Roteadores sem fio, Switch multicamada, Switch LAN , dispositivo de Firewall, Roteador
+
+    Executam as seguintes funções:
+        regenerar e retransmitir sinais de comunicação
+        manter informações sobre quais caminhos existem pela rede e pela rede interconectada
+        notificar outros dispositivos sobre erros e falhas de comunicação
+        direcionar dados por caminhos alternativos quando houver falha em um link
+        classificar e direcionar mensagens de acordo com as prioridades
+        permitir ou negar o fluxo de dados, com base em configurações de segurança
+
+
+Meios de Redes
+    Fios de metal dentro de cabos - os dados são codificados em impulsos elétricos
+    fibras de vidro ou plástico nos cabos(cabos de  fibra óptica) - dados são codificados em pulsos de luz
+    transmissão sem fio - dados são codificados através da modulação de frequenciaas especificas de ondas eletromagneticas
+
+    Critérios a serem considerados ao escolher mídia de rede:
+        Qual a distância máxima pela qual o meio físico consegue carregar um sinal com exito?
+        Qual é o ambiente em que a mídia será instalada?
+        Qual é a quantidade de dados e a velocidade deve ser transmitida?
+        Qual é o custo do meio físico e da instalação ?
+
+Representações de Rede
+    Um diagrama fornece de maneira fácil de entender como dispositivos se conectam em uma rede grande, é conhecido
+    como diagrama de topologia. é um processo crucial para se permitir vizualizar a organização e a operação de uma rede
+
+    -Placa de interface de rede(NIC) - NIC conecta fisicamente o dispositivo final à rede
+    -Porta Física - Conector ou tomada em um dispositivo de rede onde a midia se conecta a um dispositivo final
+    ou noutro dispositivo de rede
+    -interface - portas especializadas em um dispositivo de rede que se conectam a redes individuais como os Roteadores
+    conectam redes, portas em um roteador são chamadas de interfaces de rede.
+
+    obs>:os termos portas e interfaces são frequentementes usados alternadamentes
+
+Diagramas de topologia
+    são documentação obrigatória para qualquer pessoa que trabalhe com rede. fornecem mapas visuais de como a rede
+    está conectada. existem dois tipos de diagramas de topologia: físicos e lógicos
+
+    Diagrama de topologia fisica
+        ilustram a localização física dos dispositivos Intermediarios e a instalação dos cabos.contém rótulo dos
+        locais onde encontram-se localizadas.
+    
+    Diagrama de topologia lógica
+        ilustram dispositivos, portas e o esquema de endereçamento da rede, podendo ver quais dispositivos
+        finais estão conectados a quais dispositivos Intermediarios e qual midia está sendo usada.
+
+
+
+Tipos comuns de Redes:
+    Redes de vários tamanhos 
+        
